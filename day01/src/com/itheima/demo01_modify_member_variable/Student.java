@@ -11,4 +11,5 @@ package com.itheima.demo01_modify_member_variable;
 public class Student {
     static String name;//类的变量
     int age;//实例变量
+    static String sex;
 }
