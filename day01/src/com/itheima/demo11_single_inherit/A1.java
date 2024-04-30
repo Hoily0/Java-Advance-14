@@ -8,4 +8,5 @@ package com.itheima.demo11_single_inherit;
  */
 //public class A extends B,C{ //Java中的类不支持多继承
 public class A1 extends B {
+    String name = "大哥";
 }

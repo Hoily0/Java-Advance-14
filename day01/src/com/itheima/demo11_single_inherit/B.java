@@ -5,7 +5,7 @@ package com.itheima.demo11_single_inherit;
  * 爸爸
  */
 public class B extends C {
-    String name;
+    String name = "爸";
 
     protected void print2() {
         System.out.println("print2.............");

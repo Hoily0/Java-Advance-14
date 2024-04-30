@@ -4,7 +4,7 @@ package com.itheima.demo11_single_inherit;
  * 爷爷
  */
 public class C {
-    int num;
+    String name = "爷爷";
 
     public void print1() {
         String a = "";
