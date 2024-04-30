@@ -1,15 +1,25 @@
 package com.itheima.demo08_inherit;
 
 public class TestAB {
-    public static void main(String[] args) {
-        B b = new B();
-        //子类能继承父类的非私有成员（成员变量、成员方法）。
-        System.out.println("b.name2 = " + b.name2);
-        //System.out.println("b.name1 = " + b.name1);
-        //System.out.println("b.name3 = " + b.name3);
+    public int num = 0;
 
-        b.getName2();
-        b.getName3();
-        //b.getName1();
+    public static void main(String[] args) {
+        int num = -1;
+        B b = new B();
+
+        b.publicSonMethods();
+        b.publicFatherMethods();
+        System.out.println("b.num = " + b.num);
+        System.out.println("this.num = ");
+        System.out.println("num = " + num);
+
+
+        A a = new A();
+        a.defaultMethods();
+        a.protectedMethods();
+        a.publicMethods();
+        //同包类不可调用private方法
+
+
     }
 }

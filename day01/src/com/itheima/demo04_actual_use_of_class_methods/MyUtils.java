@@ -8,9 +8,9 @@ public class MyUtils {
 
     }
 
-    public static String getCode(int n) {
+    public static StringBuilder getCode(int n) {
         //1.1 定义String类型的变量 存验证码
-        String code = "";
+        StringBuilder code = new StringBuilder();
         //1.2 n循环生成验证码的字符
         Random random = new Random();
         String data = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -20,7 +20,7 @@ public class MyUtils {
             //1.3.1 根据index索引（下标）找到data字符串中的字符
             char c = data.charAt(index);
             //1.4 拼接给code字符串
-            code += c;
+            code.append(c);
         }
         return code;
     }
