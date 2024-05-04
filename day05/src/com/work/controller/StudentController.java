@@ -4,7 +4,7 @@ import com.work.entity.Student;
 import com.work.globalException.AgeException;
 import com.work.globalException.ScoreException;
 
-/**
+/*
  * @author 30391
  */
 public class StudentController {
@@ -45,6 +45,8 @@ public class StudentController {
             e.printStackTrace();
         }
         System.out.println(student);
+//        Collections.shuffle();
+
 
 
     }

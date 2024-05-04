@@ -2,6 +2,7 @@ package com.work.controller;
 
 import com.work.entity.Humanity;
 import com.work.entity.Manager;
+import com.work.enumerate.HumanGender;
 
 import java.util.ArrayList;
 
@@ -25,17 +26,24 @@ public class HumanityController {
         list.add(humanityFour);
         list.add(humanityFive);
 
-        int max = 0, min = 0;
+        int max = list.get(1).getHeight(), min = list.get(1).getHeight();
+        String maxName = "", minName = "";
         for (Humanity humanity : list) {
             if (humanity.getHeight() > max) {
                 max = humanity.getHeight();
+                maxName = humanity.getName();
+
             }
             if (humanity.getHeight() < min) {
                 min = humanity.getHeight();
+                minName = humanity.getName();
             }
         }
         System.out.println(max);
         System.out.println(min);
+        System.out.println(maxName);
+        System.out.println(minName);
+//        humanityFive.getName(HumanGender.WALMART_SHOPPING_BAG);
 
     }
 
