@@ -27,6 +27,8 @@ public class FileTest {
         if (!file3.exists()) {
             new File("C:\\Users\\30391\\Desktop\\work3.txt");
         }
+
+
     }
 
     private static void workOne() {
