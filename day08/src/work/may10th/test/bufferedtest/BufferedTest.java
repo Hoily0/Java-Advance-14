@@ -1,4 +1,4 @@
-package classes.test.bufferedtest;
+package work.may10th.test.bufferedtest;
 
 import java.io.*;
 

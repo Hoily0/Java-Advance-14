@@ -1,4 +1,4 @@
-package classes.test.dataInputStreamTest;
+package work.may10th.test.dataInputStreamTest;
 
 import java.io.*;
 

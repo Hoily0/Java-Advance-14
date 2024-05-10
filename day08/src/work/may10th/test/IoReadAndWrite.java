@@ -1,4 +1,4 @@
-package classes.test;
+package work.may10th.test;
 
 import javax.swing.*;
 import java.io.FileInputStream;

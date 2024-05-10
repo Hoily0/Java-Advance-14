@@ -1,4 +1,4 @@
-package classes.test.printTest;
+package work.may10th.test.printTest;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package classes.test.serializable;
+package work.may10th.test.serializable;
 
 import work.entity.Student;
 

@@ -1,4 +1,4 @@
-package classes.test.chartest;
+package work.may10th.test.chartest;
 
 import java.io.FileReader;
 import java.io.FileWriter;
