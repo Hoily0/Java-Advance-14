@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!---->
+<users>
+    <user>
+        <username>这是名字</username>
+        <userPassword>这是密码</userPassword>
+
+    </user>
+
+
+</users>
