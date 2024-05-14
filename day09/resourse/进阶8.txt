@@ -1,0 +1,7 @@
+字节流，字符流
+编码格式和解码格式不一致
+创建时已经覆盖
+TryCatchFinally用于关流操作
+
+特殊文件：properties ->Properties集合
+创建Peroperties对象、对象new 流、流传路径、对象调用get 传递任意数据（Map实现）/getProperties 传递字符串

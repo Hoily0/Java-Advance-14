@@ -18,26 +18,22 @@ public class NumberOfProgramRuns {
         while (true) {
             String next = scanner.next();
             System.out.println("输入back退出");
-            if ("ct".equals(next)) {
-
-                if (inputStream.read() < 4) {
-                    int newRead = inputStream.read();
-
-                    System.out.println("欢迎使用本软件，第" + (newRead + 1) + "使用免费");
-                    outputStream.write(newRead + 1);
+            int str;
+            while ((str = inputStream.read()) != -1) {
+                if ("ct".equals(next) && str < 4) {
+                    System.out.println("欢迎使用本软件，第" + (str + 1) + "使用免费");
+                    outputStream.write(str + 1);
                     outputStream.flush();
 
-                } else {
-                    System.out.println("次数不足");
+                } else if ("back".equals(next)) {
+                    return;
                 }
-
-            } else if ("back".equals(next)) {
-                break;
             }
 
 
+
         }
-        inputStream.close();
-        outputStream.close();
+//        inputStream.close();
+//        outputStream.close();
     }
 }
