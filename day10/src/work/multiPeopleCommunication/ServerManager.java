@@ -8,7 +8,6 @@ import java.net.Socket;
  */
 public class ServerManager extends Thread {
     Socket socket;
-
     public ServerManager(Socket socket) {
         this.socket = socket;
     }
